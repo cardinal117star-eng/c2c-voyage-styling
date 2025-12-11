@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
 
-  base: "/c2c-voyage-styling/",
+  base: "./",
 
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean
